@@ -1224,3 +1224,29 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
     text-align: center;
   }
 }
+.customModal {
+  margin-top: 50px;
+}
+.customModal .modal-footer,
+.customModal .modal-header {
+  text-align: center;
+  border: none;
+}
+@media (min-width: 400px) {
+  .customModal {
+    width: 400px;
+  }
+}
+.customModal .fui-cross {
+  font-size: 70px;
+  color: #c0392b;
+}
+.customModal .fui-check {
+  font-size: 70px;
+  color: #2ecc71;
+}
+#successModal .modal-title p,
+#errorModal .modal-title p {
+  font-size: 15px;
+  margin-top: 10px;
+}

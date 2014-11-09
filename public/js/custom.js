@@ -44,7 +44,7 @@ $("#newsletterform").submit(function( event ) {
             $('#errorModal .modal-title').text("\""+term+"\""+" is not a valid email. ");
             $('#errorModal .modal-footer button').text("Oops! My bad!");
             $('#errorModal').modal();
-            $('#newsletterform_input').addClass("has-error");
+            //$('#newsletterform_input').addClass("has-error");
         } else if(data.indexOf("already subscribed")>-1){
            $('#successModal .modal-title').text("You're already subscribed!");
            $('#errorModal .modal-footer button').text("Ok");
@@ -55,7 +55,7 @@ $("#newsletterform").submit(function( event ) {
             $('#errorModal .modal-title').text(data+"Yikes! Something went wrong. Please try again soon.");
             $('#errorModal .modal-footer button').text("Ok");
             $('#errorModal').modal();
-            $('#newsletterform_input').addClass("has-error");
+            //$('#newsletterform_input').addClass("has-error");
         }
         
     }
