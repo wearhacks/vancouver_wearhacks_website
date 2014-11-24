@@ -1,12 +1,12 @@
-Website for WearHacks Toronto 2015
+Website for WearHacks Vancouver 2015
 ===============
 
 *How to Run*
 
 * sudo npm install
-* node var_index.js
+* node van_index.js
 
 *How to run during development (restart server on file change)*
 
 * sudo npm install
-* nodemon var_index.js
+* nodemon van_index.js
